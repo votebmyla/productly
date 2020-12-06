@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1196px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.inner__header {
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list-item+.menu__list-item {
+    margin-left: 24px;
+}
+
+.menu__list-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #2F281E;
+}
