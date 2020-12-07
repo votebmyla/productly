@@ -19,6 +19,10 @@ body {
     align-items: center;
 }
 
+.menu {
+    margin-left: auto;
+}
+
 .menu__list {
     display: flex;
 }
@@ -35,13 +39,17 @@ body {
     color: #2F281E;
 }
 
+.user-nav {
+    margin-left: 54px;
+}
+
 .user-nav__link {
     box-sizing: border-box;
     border: 2px solid #BCD0E5;
     padding: 12px 24px;
     border-radius: 4px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     color: #173A56;
     text-decoration: none;
@@ -49,7 +57,7 @@ body {
 
 .user-nav__link+.user-nav__link {
     box-sizing: border-box;
-    border: 2px solid #FF9900;
+    border-color: transparent;
     padding: 12px 24px;
     border-radius: 4px;
     font-weight: 600;
