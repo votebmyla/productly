@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    color: #544837;
 }
 
 .container {
@@ -41,7 +42,7 @@ body {
     padding: 12px 24px;
     border-radius: 4px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     color: #173A56;
     text-decoration: none;
@@ -58,4 +59,62 @@ body {
     color: #ffffff;
     text-decoration: none;
     background-color: #FF9900;
+}
+
+.top__inner {
+    background-image: url('../images/top-tb.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 130px 0 80px;
+}
+
+.top__title {
+    margin-bottom: 30px;
+    width: 485px;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #2F281E;
+}
+
+.top__text {
+    margin-bottom: 45px;
+    width: 485px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.top__button {
+    display: inline-block;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    background-color: #FF9900;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+.top__link {
+    display: inline-block;
+    font-weight: 600;
+    font-style: 16px;
+    line-height: 24px;
+    color: #FF9900;
+    margin-left: 44px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.top__link::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    width: 18px;
+    height: 19px;
+    background-image: url(../images/play-triangle.svg);
 }
