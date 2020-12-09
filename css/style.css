@@ -11,6 +11,7 @@
         max-width: 1196px;
         margin: 0 auto;
         padding: 0 10px;
+        border: 1px #000000 solid;
     }
     
     .inner__header {
@@ -190,37 +191,59 @@
         background-color: #FF7549;
     }
     
+    .direction {
+        padding: 120px 0 100px;
+    }
+    
+    .direction__item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+    
     .direction__item-content {
         max-width: 486px;
-        margin-top: 144px;
     }
     
     .direction__item-pretitle {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 500;
+        margin-bottom: 3px;
     }
     
     .direction__item-title {
         font-size: 36px;
         line-height: 54px;
         font-weight: 700;
+        margin-bottom: 22px;
     }
     
-    .direction__item-text {
-        font-size: 16px;
-        line-height: 26px;
-        font-weight: 500;
-        margin-top: 22px;
+    .direction__item-titletext {
+        margin-bottom: 30px;
     }
     
     .direction__item-subtitle {
-        font-size: 16px;
-        line-height: 26px;
         font-weight: 700;
-        margin-top: 30px;
+        margin-bottom: 12px;
     }
     
-    .direction__item-img {
-        display: inline;
+    .direction__item-text {
+        margin-bottom: 25px;
+    }
+    
+    .direction__list {
+        list-style: none;
+    }
+    
+    .direction__list-item {
+        margin-bottom: 30px;
+        padding-left: 65px;
+        position: relative;
+    }
+    
+    .direction__list-item::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 35px;
+        height: 35px;
+        background-image: url('../images/mark.svg');
     }
